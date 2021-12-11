@@ -1,0 +1,123 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  /* reset mặt định of trang web */
+}
+.red {
+  border: 1px solid red;
+}
+.green {
+  border: 1px solid green;
+}
+.banner {
+  height: 930px;
+  background: url("./banner.jpg") center no-repeat;
+  background-size: cover;
+  padding: 20px; /* ép ảnh vào trung tâm */
+  .about-singin {
+    height: 80px;
+    width: 100%;
+    .about,
+    .singin {
+      text-decoration: none; /* bỏ dấu gạch chân*/
+      float: right;
+      text-transform: uppercase; /*in hoa chữ */
+    }
+    .singin {
+      padding: 10px 20px;
+      margin-top: 47;
+      margin-right: 287;
+      margin-left: 61;
+      border-radius: 20px; /*khung viền*/
+      color: green;
+    }
+    .about {
+      margin-top: 59px;
+      color: black;
+    }
+  }
+  .logo {
+    background: url("./hapoERP.png") center no-repeat;
+    height: 100px;
+    margin-top: 170px;
+  }
+  .content-center {
+    text-align: center;
+    .left,
+    .right,
+    .center {
+      display: inline-block; /*cùng nằm trên 1 dòng*/
+      /*  text-align: center;  căn giữa */
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+    .center {
+      text-align: center;
+      margin-left: 267px;
+      margin-right: 267px;
+    }
+    .left {
+      margin-left: 42px;
+    }
+
+    span {
+      display: block;
+      font-size: 42px;
+    }
+    img {
+      height: 45px;
+      width: 45px;
+    }
+  }
+  .text {
+    text-align: center;
+    margin-top: 30px;
+    span {
+      font-style: oblique;
+      font-size: 20px;
+    }
+  }
+  .btn-start-now {
+    text-align: center;
+    button {
+      padding: 7px 15px;
+      border-radius: 20px;
+      margin-top: 25;
+      cursor: pointer; /* bàn tay khi đưa chuột vào*/
+    }
+    .custom-btn {
+      width: 130px;
+      height: 40px;
+      color: #fff;
+      border-radius: 5px;
+      padding: 10px 25px;
+      font-family: "Lato", sans-serif;
+      font-weight: 500;
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+      box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+        7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+      outline: none;
+    }
+    .btn-1 {
+      background: rgb(6, 14, 131);
+      background: linear-gradient(
+        0deg,
+        rgba(6, 14, 131, 1) 0%,
+        rgba(12, 25, 180, 1) 100%
+      );
+      border: none;
+    }
+    .btn-1:hover {
+      background: rgb(0, 3, 255);
+      background: linear-gradient(
+        0deg,
+        rgba(0, 3, 255, 1) 0%,
+        rgba(2, 126, 251, 1) 100%
+      );
+    }
+  }
+}
